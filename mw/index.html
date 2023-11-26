@@ -1,1 +1,90 @@
-
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+  integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+  crossorigin=""/>
+  <link rel="stylesheet" href="mw.css">
+  
+</head>
+<body>
+  <header>
+    <h1>Männerwandern</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#mw-2018">2018</a></li>
+      <li><a href="#mw-2017">2017</a></li>
+      <li><a href="#mw-2016">2016</a></li>
+      <li><a href="#mw-2015">2015</a></li>
+      <li><a href="#mw-2010">2010</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <section id="mw-2018" class="grid">
+      <div class="grid__tile">
+        <h1>Tannheimer Tal</h1>
+        <ol>
+          <li class="poi2018" lat="47.5344274" lng="10.5626676"><a href="http://www.badkissingerhuette.at/startseite.html" target="_blank">Bad Kissinger Hütte - 1792m (übernachtet)</a></li>
+          <li class="poi2018" lat="47.5093029" lng="10.6187182"><a href="https://www.ottomayrhuette.de" target="_blank">Otto Mayr Hütte - 1530m (übernachtet)</a></li>
+          <li class="poi2018" lat="47.4939736" lng="10.6140817"><a href="http://www.gimpelhaus.at" target="_blank">Gimpelhaus - 1659m (übernachtet)</a></li>
+        </ol>
+      </div>
+      <div control=mymap lat=47.524247 lng=10.6172794 path=https://d252eqo0vo842w.cloudfront.net/mw/path/mw2018.gpx tour="2018" class="grid__tile"></div>
+    </section>
+    <section id="mw-2017"  class="grid">
+      <div class="grid__tile">
+        <h1>Karwendel (westlich)</h1>
+        <ol>
+          <li class="poi2017" lat="47.3373311" lng="11.3430031"><a href="http://www.moesl-alm.at" target="_blank">Möslalm - 1260m (übernachtet)</a></li>
+          <li class="poi2017" lat="47.3081365" lng="11.2881120"><a href="https://solsteinhaus.at" target="_blank">Solsteinhaus - 1806m (übernachtet)</a></li>
+          <li class="poi2017" lat="47.3200477" lng="11.2367207"><a href="http://www.noerdlingerhuette.at" target="_blank">Nördlinger Hütte - 2239m (übernachtet)</a></li>
+        </ol>
+      </div>
+      <div control=mymap lat=47.3216332 lng=11.2486823  path=https://d252eqo0vo842w.cloudfront.net/mw/path/mw2017.gpx tour="2017" class="grid__tile"></div>
+    </section>
+    <section id="mw-2016"  class="grid">
+      <div class="grid__tile">
+        <h1>Mindelheimer Klettersteig (auf Grund Wetter nicht gemacht)</h1>
+        <ol>
+          <li class="poi2016" lat="47.3156837" lng="10.2123814"><a href="https://www.fiderepasshuette.de/de-de/home/" target="_blank">Fiderepasshütte - 2050m (übernachtet)</a></li>
+          <li class="poi2016" lat="47.2923318" lng="10.1948529"><a href="https://www.mindelheimer-huette.de/" target="_blank">Mindelheimer Hütte - 2013m (übernachtet)</a></li>
+          <li class="poi2016" lat="47.2889892" lng="10.2550145"><a href="http://www.rappenseehuette.de/home.html" target="_blank">Rappenseehütte - 2091m (übernachtet)</a></li>
+        </ol>
+      </div>
+      <div control=mymap lat=47.3216332 lng=11.2486823  path=https://d252eqo0vo842w.cloudfront.net/mw/path/mw2016.gpx tour="2016" class="grid__tile"></div>
+    </section>
+    <section id="mw-2015" class="grid">
+      <div class="grid__tile">
+        <h1>Um den Watzmann</h1>
+        <ol>
+          <li class="poi2015" lat="47.5391709" lng="12.8882091"><a href="https://www.wimbachgrieshuette.de/" target="_blank">Wimbachgrieshütte - 1327m (übernachtet)</a></li>
+          <li class="poi2015" lat="47.5015960" lng="12.8871452"><a href="https://www.dav-ingolstadt.de/ingolstaedter-haus/" target="_blank">Ingolstädter Haus - 2119m (übernachtet)</a></li>
+          <li class="poi2015" lat="47.4580091" lng="12.9144656"><a href="https://www.dav-ingolstadt.de/riemannhaus/" target="_blank">Riemannhaus - 2177m</a></li>
+          <li class="poi2015" lat="47.4954604" lng="12.9370671"><a href="https://kaerlingerhaus.de/" target="_blank">Kärlinger Haus - 1638 (übernachtet)</a></li>
+        </ol>
+      </div>
+      <div control=mymap lat=47.545115 lng=12.910657  path=https://d252eqo0vo842w.cloudfront.net/mw/path/mw2015.gpx tour="2015" class="grid__tile"></div>
+    </section>
+    <section id="mw-2010" class="grid">
+      <div class="grid__tile">
+        <h1>Wilder Kaiser</h1>
+        <ol>
+          <li class="poi2010" lat="47.57777" lng="12.20957"><a href="http://weinbergerhaus.at" target="_blank">Weinbergerhaus - 1272m (übernachtet)</a></li>
+          <li class="poi2010" lat="47.5771561" lng="12.3104889"><a href="https://www.stripsenjoch.at" target="_blank">Stripsenjochhaus - 1580m (übernachtet)</a></li>
+          <li class="poi2010" lat="47.6100658" lng="12.2765716">Pyramidenspitze - 1997m</li>
+          <li class="poi2010" lat="47.6061715" lng="12.2391124"><a href="https://www.alpenverein-muenchen-oberland.de/vorderkaiserfeldenhuette" target="_blank">Vorderkaiserfeldenhuette - 1388m (übernachtet)</a></li>
+        </ol>
+      </div>
+      <div control=mymap lat=47.5873848 lng=12.1847202 path=https://d252eqo0vo842w.cloudfront.net/mw/path/mw2010.gpx tour="2010" class="grid__tile"></div>
+    </section>
+  </main>
+  
+  <footer>
+    &copy;2018 Männerwandern
+  </footer>
+  <script src="mw.js"></script>
+</body>
